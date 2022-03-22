@@ -1,0 +1,115 @@
+body{
+	background-image: url(../images/image2.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.logo{
+	float: left;
+	display: block;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 100px;
+	width: 150px;
+}
+
+.header{
+	width:101%;
+	height: 135px;
+	display: block;
+	background-color:#999997; 
+	border:0px;
+	font-family: Arial;
+	color:  white;
+	margin-top: -8px;
+	margin-left: -8px;
+	margin-right: -18px;
+
+}
+
+
+ul.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #424042;
+	color: white;
+	font-family: Arial;
+	width: 101.02%;
+	margin-left: -8px;
+
+}
+
+li.menu{
+	float: left;
+}
+
+li a{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	padding: 10px 16px
+}
+
+li a:hover{
+	background-color: #ff0084;
+	opacity: 0.7;
+}
+
+
+.font{
+	font-family: Arial;
+	color:#000000;
+}
+
+
+div.footer{
+	width: 101%;
+	height: 280px;
+	display: block;
+	background-color:#999997;
+	padding-top: 10px;
+	color: white;
+	font-family: Arial;
+	font-size: 80%;
+	margin-top: 20px;
+	margin-right: -8px;
+	margin-left: -8px;
+	margin-bottom: -100PX;
+
+}
+
+
+.transbox1{
+
+	width: 600px;
+	font-family: Arial;
+	height: 550px;
+	opacity: 0.8;
+	background-color:#ffffff; 
+	border: 1px solid black;
+
+}
+
+
+.btn1{
+
+  background-color: #1aff1a;
+  border: 1px;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+button:hover{
+	background-color:  #4dffff;
+}
